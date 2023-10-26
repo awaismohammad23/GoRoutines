@@ -27,7 +27,4 @@ func main() {
 		fmt.Println(<-myIntChannel)
 	}
 
-	for i := 0; i < 6; i++ {
-		fmt.Println(<-myIntChannel)
-	}
 }
